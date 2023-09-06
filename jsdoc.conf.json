@@ -1,0 +1,16 @@
+{
+    "plugins": ["plugins/markdown"],
+    "recursive": 10,
+    "source": {
+        "include": [
+            "spine-core/dist",
+            "spine-phaser/dist"
+        ]
+    },
+    "opts": {
+        "private": false,
+        "recurse": true,
+        "destination": "out.json",
+        "template": "node_modules/jsdoc-json"
+    }
+}
