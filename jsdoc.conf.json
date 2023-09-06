@@ -1,5 +1,4 @@
 {
-    "plugins": ["plugins/markdown"],
     "recursive": 10,
     "source": {
         "include": [
